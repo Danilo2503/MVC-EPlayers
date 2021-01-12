@@ -1,0 +1,7 @@
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.csprojAssemblyReference.cache
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.AssemblyInfoInputs.cache
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.AssemblyInfo.cs
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.csproj.CoreCompileInputs.cache
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.RazorAssemblyInfo.cache
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.RazorAssemblyInfo.cs

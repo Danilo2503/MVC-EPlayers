@@ -26,16 +26,16 @@ namespace MVC_EPlayers.Models
         }
 
         public void Create(Equipe equipe){
-            string[] linhas = {Prepare(e)};
+            string[] linhas = {Prepare(equipe)};
             File.AppendAllLines(PATH, linhas);
         }
 
         public void Update(Equipe e){
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Delete(int id){
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         } 
 
         public List<Equipe> ReadAll(){
