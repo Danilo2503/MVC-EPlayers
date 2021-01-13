@@ -5,14 +5,14 @@ namespace MVC_EPlayers.Models
 {
     public class EplayersBase
     {
-        public void CreateFileAndFolder(string _path){
-            string folder = _path.Split("/")[0];
+        public void CreateFileAndFolder(string path){
+            string folder = path.Split("/")[0];
 
             if(!Directory.Exists(folder)){
                 Directory.CreateDirectory(folder);
             }
-            if(!File.Exists(_path)){
-                File.Create(_path);   
+            if(!File.Exists(path)){
+                File.Create(path);   
             }
         }
         public List<string> ReadAllLinesCSV(string PATH){
@@ -37,10 +37,10 @@ namespace MVC_EPlayers.Models
                 }
             }
         }
-        public void Update(Equipe e){
+        public void Update(Equipe equipe){
             List<string> linhas = ReadAllLinesCSV(PATH);
-            linhas.RemoveAll(x => x.Split(";")[0] == e.IdEquipe.ToString());
-            linhas.Add(Prepare(e));
+            linhas.RemoveAll(x => x.Split(";")[0] == equipe.IdEquipe.ToString());
+            linhas.Add(Prepare(equipe));
             RewriteCSV(PATH, linhas);
         }
         public void Delete(int id){

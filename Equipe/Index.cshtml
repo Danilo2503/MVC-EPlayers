@@ -1,3 +1,4 @@
+@using MVC_EPlayers.Models
 @model Equipe
 @{
     ViewData["Title"] = "Equipes";
@@ -11,7 +12,7 @@
     <input type="text" name="Nome"/>
 
     <label>Imagem</label>
-    <input type="text" name="Foto"/>
+    <input type="file" name="Foto"/>
 
     <button type="submit">Cadastrar</button>
 </form>
@@ -23,12 +24,13 @@
         <th>Foto</th>
     </thead>
     <tbody>
-        @foreach (Equipe e in ViewBag.Equipes)
+        @foreach (Equipe equipe in ViewBag.Equipes)
         {
            <tr>
-               <td>@e.IdEquipe</td>
-               <td>@e.Nome</td>
-               <td>@e.Imagem</td>
+               <td>@equipe.IdEquipe</td>
+               <td>@equipe.Nome</td>
+               <td><img src="img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width=40></td>
+               <td><a asp-area="Link para excluir uma equipe" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">Excluir</a></td>
            </tr> 
         }
     </tbody>

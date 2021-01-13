@@ -16,26 +16,26 @@ namespace MVC_EPlayers.Models
             CreateFileAndFolder(PATH);
         }
 
-        public void Create(Equipe e){
-            string[] linha = {Prepare(e)};
+        public void Create(Equipe equipe){
+            string[] linha = {Prepare(equipe)};
             File.AppendAllLines(PATH, linha);
         }
 
-        private string Prepare(Equipe e){
-            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
+        private string Prepare(Equipe equipe){
+            return $"{equipe.IdEquipe};{equipe.Nome};{equipe.Imagem}";
         }
 
-        public void Create(Equipe equipe){
-            string[] linhas = {Prepare(equipe)};
-            File.AppendAllLines(PATH, linhas);
-        }
-
-        public void Update(Equipe e){
-            throw new NotImplementedException();
+        public void Update(Equipe equipe){
+            List<string> linhas = ReadAllLinesCSV(PATH);
+            linhas.RemoveAll(x => x.Split(";")[0] == equipe.IdEquipe.ToString());
+            linhas.Add(Prepare(equipe));
+            RewriteCSV(PATH, linhas);
         }
 
         public void Delete(int id){
-            throw new NotImplementedException();
+            List<string> linhas = ReadAllLinesCSV(PATH);
+            linhas.RemoveAll(x => x.Split(";")[0] == id.ToString());
+            RewriteCSV(PATH, linhas);
         } 
 
         public List<Equipe> ReadAll(){

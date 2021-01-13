@@ -14397,11 +14397,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Views\\Index.cshtml",
-      "TargetPath": "Views\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14414,11 @@
     {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Equipe\\Index.cshtml",
+      "TargetPath": "Equipe\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
