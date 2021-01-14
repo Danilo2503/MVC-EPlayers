@@ -37,13 +37,19 @@ namespace MVC_EPlayers.Models
                 }
             }
         }
-        public void Update(Equipe equipe){
+        public void Update(Equipe equipe, string PATH){
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == equipe.IdEquipe.ToString());
             linhas.Add(Prepare(equipe));
             RewriteCSV(PATH, linhas);
         }
-        public void Delete(int id){
+
+        private string Prepare(Equipe equipe)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Delete(int id, string PATH){
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == id.ToString());
             RewriteCSV(PATH, linhas);
