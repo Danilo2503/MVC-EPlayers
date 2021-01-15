@@ -45,7 +45,7 @@ namespace MVC_EPlayers.Models
             {
                 string[] linha = item.Split(";");
                 Equipe equipe = new Equipe();
-                equipe.IdEquipe = int.Parse(linha[0]);
+                equipe.IdEquipe = Int32.Parse(linha[0]);
                 equipe.Nome = linha[1];
                 equipe.Imagem = linha[2];
 

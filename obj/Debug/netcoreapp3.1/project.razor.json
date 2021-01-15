@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Views\\Jogador\\Index.cshtml",
+      "TargetPath": "Views\\Jogador\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\EPlayers MVC\\MVC-EPlayers\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
