@@ -19,7 +19,6 @@ D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\bin\Debug\netco
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.TagHelpers.input.cache
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.TagHelpers.output.cache
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.RazorCoreGenerate.cache
-D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\Razor\Equipe\Index.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -35,3 +34,4 @@ D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netco
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.pdb
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.genruntimeconfig.cache
 D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\MVC-EPlayers.csproj.CopyComplete
+D:\Desktop\Projetos SENAI\Projetos MVC\EPlayers MVC\MVC-EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
