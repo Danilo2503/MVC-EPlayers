@@ -13,12 +13,14 @@ namespace MVC_EPlayers.Controllers
             return View();
         }
         Jogador jogadorModel = new Jogador();
-
+        Equipe equipeModel = new Equipe();
         public IActionResult Index()
         {
+            ViewBag.Equipes = equipeModel.ReadAll();
             ViewBag.Jogadores = jogadorModel.ReadAll();
             return View();
         }
+        [Route("Cadastrar")]
         public IActionResult Cadastrar (IFormCollection form)
         {
             Jogador novoJogador = new Jogador();

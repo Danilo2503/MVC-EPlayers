@@ -78,6 +78,10 @@ ul{
     margin-top: 230px;
 }
 
+.erro{
+    color: #fc1e8b;
+}
+
 .sobre{
     background-image: url("../Images/Teams/T6.jpg");
     background-position: center;

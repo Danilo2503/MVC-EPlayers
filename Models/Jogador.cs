@@ -12,7 +12,7 @@ namespace MVC_EPlayers.Models
         // Login
         public string Email {get;set;}
         public string Senha {get;set;}
-        private const string PATH = "Database.csv";
+        public const string PATH = "Database.csv";
 
         public Jogador()
         {
