@@ -8,10 +8,6 @@ namespace MVC_EPlayers.Controllers
     [Route("Jogador")]
     public class JogadorController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
         Jogador jogadorModel = new Jogador();
         Equipe equipeModel = new Equipe();
         public IActionResult Index()
